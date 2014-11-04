@@ -5,7 +5,12 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+# ZSH_THEME="garyblessington"
+# ZSH_THEME="miloshadzic"
+# ZSH_THEME="simple"
+# ZSH_THEME="tonotdo"
+ZSH_THEME="jod"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -15,7 +20,7 @@ ZSH_THEME="robbyrussell"
 
 # By default you will be prompted to check for upgrades.
 # If you would like oh-my-zsh to automatically upgrade itself without prompting you
-#DISABLE_UPDATE_PROMPT=true
+DISABLE_UPDATE_PROMPT=true
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -86,3 +91,6 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:$PATH"
 alias src="source"
 alias toshop="open -a Adobe\ Photoshop\ CC"
 alias mou="open /Applications/Mou.app"
+
+# Autojump ($ brew info autojump)
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
