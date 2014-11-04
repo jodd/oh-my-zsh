@@ -4,7 +4,7 @@ RPROMPT='%{$FG[240]%}[%*]%{$reset_color%}'
 # git theming
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[137]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
-ZSH_THEME_GIT_PROMPT_CLEAN=" "
+ZSH_THEME_GIT_PROMPT_CLEAN=""
 ZSH_THEME_GIT_PROMPT_DIRTY=" %{$FG[142]%}⚑%{$reset_color%}"
 
 # LS colors, made with http://geoff.greer.fm/lscolors/
