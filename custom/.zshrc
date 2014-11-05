@@ -90,7 +90,8 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:$PATH"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias src="source"
 alias toshop="open -a Adobe\ Photoshop\ CC"
-alias mou="open /Applications/Mou.app"
+alias mou="open -a /Applications/Mou.app"
+alias fire="open -a /Applications/Firefox.app"
 
 # Autojump ($ brew info autojump)
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
