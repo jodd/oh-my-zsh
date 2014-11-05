@@ -1,8 +1,8 @@
-PROMPT='%{$FG[094]%}%3~$(git_prompt_info) %{$FG[088]%}▸%{$reset_color%} '
+PROMPT='%{$FG[208]%}%3~$(git_prompt_info) %{$FG[208]%}▸%{$reset_color%} '
 RPROMPT='%{$FG[240]%}[%*]%{$reset_color%}'
 
 # git theming
-ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[137]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[160]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 ZSH_THEME_GIT_PROMPT_DIRTY=" %{$FG[142]%}⚑%{$reset_color%}"
