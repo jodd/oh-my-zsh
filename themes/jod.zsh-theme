@@ -1,4 +1,4 @@
-PROMPT='%{$FG[208]%}%3~$(git_prompt_info) %{$FG[208]%}▸%{$reset_color%} '
+PROMPT='%{$FG[208]%}%~$(git_prompt_info) %{$FG[208]%}▸%{$reset_color%} '
 RPROMPT='%{$FG[240]%}[%*]%{$reset_color%}'
 
 # git theming
