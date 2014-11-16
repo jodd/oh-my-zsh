@@ -88,9 +88,13 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:$PATH"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias ..="cd .."
 alias ip="ifconfig"
 alias src="source ~/.zshrc"
+
+alias vhosts="cd /usr/local/etc/nginx/sites-enabled"
+
 alias toshop="open -a Adobe\ Photoshop\ CC"
 alias mou="open -a /Applications/Mou.app"
 alias fire="open -a /Applications/Firefox.app"
