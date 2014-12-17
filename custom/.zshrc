@@ -99,5 +99,7 @@ alias toshop="open -a Adobe\ Photoshop\ CC"
 alias mou="open -a /Applications/Mou.app"
 alias fire="open -a /Applications/Firefox.app"
 
+alias gstl="git stash list"
+
 # Autojump ($ brew info autojump)
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
