@@ -92,6 +92,7 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:$PATH"
 alias ..="cd .."
 alias ip="ifconfig"
 alias src="source ~/.zshrc"
+alias nginx.restart="sudo nginx -s stop && sudo nginx"
 
 alias vhosts="cd /usr/local/etc/nginx/sites-enabled"
 
