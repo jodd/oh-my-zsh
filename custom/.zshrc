@@ -89,18 +89,5 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:$PATH"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias ..="cd .."
-alias ip="ifconfig"
-alias src="source ~/.zshrc"
-alias nginx.restart="sudo nginx -s stop && sudo nginx"
-
-alias vhosts="cd /usr/local/etc/nginx/sites-enabled"
-
-alias toshop="open -a Adobe\ Photoshop\ CC"
-alias mou="open -a /Applications/Mou.app"
-alias fire="open -a /Applications/Firefox.app"
-
-alias gstl="git stash list"
-
 # Autojump ($ brew info autojump)
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
