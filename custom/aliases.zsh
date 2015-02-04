@@ -10,5 +10,7 @@ alias toshop="open -a Adobe\ Photoshop\ CC"
 alias mou="open -a /Applications/Mou.app"
 alias fire="open -a /Applications/Firefox.app"
 
+alias b="bower"
+
 # load other (private) aliases
 source ~/.aliasesrc
