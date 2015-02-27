@@ -61,11 +61,13 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 #export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:$PATH"
+# export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="$(brew --prefix homebrew/php/php55)/bin:$PATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
