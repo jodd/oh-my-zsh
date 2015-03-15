@@ -10,6 +10,8 @@ alias d="drush"
 vhosts=/usr/local/etc/nginx/sites-enabled
 # Apache vhosts
 # /etc/apache2/vhosts
+# Git repos
+gitrepos=/usr/local/share/gitrepos
 
 # Applications
 alias toshop="open -a Adobe\ Photoshop\ CC"
