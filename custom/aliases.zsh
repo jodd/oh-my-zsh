@@ -9,7 +9,7 @@ alias d="drush"
 # Alias vhosts="cd /usr/local/etc/nginx/sites-enabled"
 vhosts=/usr/local/etc/nginx/sites-enabled
 # Apache vhosts
-# /etc/apache2/vhosts
+alias apache-vhosts="/etc/apache2/vhosts"
 # Git repos
 gitrepos=/usr/local/share/gitrepos
 
