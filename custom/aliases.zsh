@@ -4,7 +4,9 @@ alias src="source ~/.zshrc"
 alias nginx.restart="sudo nginx -s stop && sudo nginx"
 alias npmls="npm ls --depth=0"
 alias b="bower"
+alias bls="bower list"
 alias d="drush"
+alias wp="webpack"
 
 # Alias vhosts="cd /usr/local/etc/nginx/sites-enabled"
 vhosts=/usr/local/etc/nginx/sites-enabled
