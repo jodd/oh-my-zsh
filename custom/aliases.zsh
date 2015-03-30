@@ -1,12 +1,19 @@
 alias ..="cd .."
+alias rm="rm -r"
 alias ip="ifconfig"
 alias src="source ~/.zshrc"
 alias nginx.restart="sudo nginx -s stop && sudo nginx"
+alias d="drush"
+
+# NPM
 alias npmls="npm ls --depth=0"
+
+# Webpack
+alias wp="webpack"
+
+# Bower
 alias b="bower"
 alias bls="bower list"
-alias d="drush"
-alias wp="webpack"
 
 # Alias vhosts="cd /usr/local/etc/nginx/sites-enabled"
 vhosts=/usr/local/etc/nginx/sites-enabled
@@ -22,7 +29,6 @@ alias fire="open -a /Applications/Firefox.app"
 
 # Load other (private) aliases
 source ~/.aliasesrc
-
 
 # Alias SVN
 alias s="svn"
