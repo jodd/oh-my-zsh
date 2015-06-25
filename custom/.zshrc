@@ -93,3 +93,8 @@ export LANG=en_US.UTF-8
 
 # Autojump ($ brew info autojump)
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+
+# Moving or Renaming Multiple Files
+# http://www.mfasold.net/blog/2008/11/moving-or-renaming-multiple-files/
+autoload -U zmv
+alias mmv='noglob zmv -W'
