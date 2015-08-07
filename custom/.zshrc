@@ -64,7 +64,10 @@ source $ZSH/oh-my-zsh.sh
 # export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 export PATH="/usr/local/sbin:$PATH"
-export PATH="$(brew --prefix homebrew/php/php55)/bin:$PATH"
+export PATH="$(brew --prefix homebrew/php/php54)/bin:$PATH"
+# export PATH="$(brew --prefix homebrew/php/php55)/bin:$PATH"
+# export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
+
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
